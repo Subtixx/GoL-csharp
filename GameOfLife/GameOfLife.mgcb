@@ -1,0 +1,40 @@
+
+#----------------------------- Global Properties ----------------------------#
+
+/outputDir:bin\\$(Configuration)\\Content\\
+/intermediateDir:obj
+/platform:Windows
+/config:
+/profile:Reach
+/compress:False
+
+#-------------------------------- References --------------------------------#
+
+/reference:..\packages\MonoGame.Extended.Content.Pipeline.1.0.617\tools\MonoGame.Extended.Content.Pipeline.dll
+
+#---------------------------------- Content ---------------------------------#
+
+#begin pixel-love.fnt
+/importer:BitmapFontImporter
+/processor:BitmapFontProcessor
+/build:pixel-love.fnt
+
+#begin pixel-love_0.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:pixel-love_0.png
+
+#begin PixelLove.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:PixelLove.spritefont
+
